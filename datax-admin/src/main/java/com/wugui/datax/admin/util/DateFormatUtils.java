@@ -7,6 +7,7 @@ public class DateFormatUtils {
 
     public static final String DATE_FORMAT = "yyyy/MM/dd";
     public static final String DATETIME_FORMAT = "yyyy/MM/dd HH:mm:ss";
+    public static final String YYYYMMDD = "yyyyMMdd";
     public static final String TIME_FORMAT = "HH:mm:ss";
     public static final String TIMESTAMP = "Timestamp";
 
@@ -16,6 +17,7 @@ public class DateFormatUtils {
         formatList.add(TIME_FORMAT);
         formatList.add(DATETIME_FORMAT);
         formatList.add(TIMESTAMP);
+        formatList.add(YYYYMMDD);
         return formatList;
     }
 
